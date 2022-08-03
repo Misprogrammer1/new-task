@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-weight: 500;
+    background: #f5f5f5;
+    color: #002145;
+}
+
+/*page1*/
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+#nav{ 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+#border{
+    width: 24px;
+    height: 14px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 13px;
+}
+#line{
+    width: 2px;
+    height: 20px;
+    background: #0A65CD;
+    border-radius: 1px;
+}
